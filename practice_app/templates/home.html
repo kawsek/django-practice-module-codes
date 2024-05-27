@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>This is home page</h1>
+    <h2>Author : {{author}}</h2>
+    <h2>Age : {{age}}</h2>
+    <h2>stringa : {{stringa}}</h2>
+    <h2>{{lst}}</h2>
+    <h1>{{ stringa | addslashes }}</h1>
+    <h1>{{ lst | length }}</h1>
+    <h1>{{ age | add:"2" }}</h1>
+    <h1>{{ stringb | capfirst }}</h1>
+    <h1>"{{ stringb | center:"15" }}"</h1>
+    <h1>{{ stringa | cut:" " }}</h1>
+    <h1>{{ abc | default:"nothing" }}</h1>
+    <h1>{{ list | dictsort:"name" }}</h1>
+    <h1>{{ age | divisibleby:"3" }}</h1>
+    <h1>{{ age | filesizeformat }}</h1>
+    <h1>{{ list | first }}</h1>
+    <h1>{{ list | last }}</h1>
+    <h1>{{ list | join:" // " }}</h1>
+    <h1>{{ list | linenumbers }}</h1>
+    <h1>{{ stringa | lower }}</h1>
+    <h1>{{ stringb | make_list }}</h1>
+    <h1>{{ list | random }}</h1>
+    <h1>{{ list | slice:":2" }}</h1>
+    <h1>{{ stringa | slugify }}</h1>
+    <h1>{{ birthday | time:"H:i" }}</h1>
+    <h1>{{ stringa | title }}</h1>
+    <h1>{{ list | unordered_list }}</h1>
+    <h1>{{ stringa | upper }}</h1>
+    <h1>{{ stringa | wordcount }}</h1>
+    <h1>{{ birthday | date:"D d M Y" }}</h1>
+
+    <h1>{{ lst | join:" - " }} </h1>
+    <h1>{{ lst | join:" // " }} </h1>
+    <h1>{{ birthday|date:"SHORT_DATE_FORMAT" }} </h1>
+    <h1>{{ birthday | date }} </h1>
+    <h1>{{ birthday | date:"D d M Y" }} </h1>
+    
+    
+    
+
+  </body>
+</html>
